@@ -1,0 +1,48 @@
+
+body{
+    margin: 0 auto;
+    max-width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header{
+    max-width: 960px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url("../images/header.jpg");
+    border: 2px solid black;
+}
+
+footer{
+    text-align: center;
+    background-color: brown;
+    margin: 0 auto;
+    height: 40px;
+    border: 2px solid black;
+}
+
+h1{
+    color: brown;
+}
+
+h2{
+    color: orangered;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header_text {
+    color: rgb(226, 3, 3);
+    font-size: 200%;
+    text-shadow: 2px 1px rgb(100, 100, 100);
+
+    text-decoration: underline;
+}
+
+#text{
+    padding-left: 10px;
+}
+

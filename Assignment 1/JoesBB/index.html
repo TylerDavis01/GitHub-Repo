@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Tyler's Bed and Breakfast</title>
+</head>
+<body>
+    <header>
+        <div class = "header_text">
+                <h1 id="company" class = "header_text"></h1>
+                <h2 id="slogan" class = "header_text"></h2>
+        </div>
+    </header>
+    <main>
+        <div id="text">
+                <h1 id="pageName"></h1>
+                <h2>What I Learned:</h2>
+                <ul class="objectives">
+                    <li><input type="checkbox" checked> Build a simple webpage with a header, main and footer</li>
+                    <li><input type="checkbox" checked> Find and correctly resize an image to be loaded into the header using CSS</li>
+                    <li><input type="checkbox" checked> Use JavaScript to insert text into an HTML element</li>
+                    <li><input type="checkbox" checked> Use JavaScript to insert a current date into a web page</li>
+                    <li><input type="checkbox" checked> Style a page using CSS</li>
+                    <li><input type="checkbox" checked> Push code to a GitHub Repository</li>
+                    <li><input type="checkbox" checked> Deploy a webpage using Netlify</li>
+                </ul>
+                <h2>Today is 
+        
+                    <script>
+                        let theDate = new Date()
+                        document.write(theDate.toLocaleDateString())    
+                    </script>
+                </h2>
+        
+                <p id="greeting"></p>
+        </div>
+    </main>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+<footer>
+    <p>Assignment for DGM2760 by Tyler Davis</p>
+</footer>
+</html>
