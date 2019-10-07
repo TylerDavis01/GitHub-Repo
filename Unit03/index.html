@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>High/Low Guessing Game</title>
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <div class="headerText">
+                <h1 id="header1"></h1>
+                <h2 id="header2"></h2>
+            </div>
+        </header>
+
+        <main>
+            <h1>High/Low Guessing Game</h1>
+            <h2>What I learned:</h2>
+            <ul class="objectives">
+                <li><input type="checkbox" checked>Implement functions</li>
+                <li><input type="checkbox" checked>Implement a multi level if-then-else</li>
+                <li><input type="checkbox" checked>Use innerText to provide user feedback</li>
+                <li><input type="checkbox" checked>Implement a switch statement</li> 
+                <li><input type="checkbox" checked>Dynamically load a graphic</li>
+                <li><input type="checkbox" checked>Create and append an image element</li> 
+            </ul>
+
+            <h2>Instructions</h2>
+            <p>In this game you try to guess a random number between 0 and 16 in as few tries as possible. 
+                You will be awarded a ribbon for your skills. Good luck to you. If you would like to play again, refresh the page.</p>
+            
+            <div class="gameContainer">
+                <article class="a1">
+                    <h2>Plays</h2>
+                    <div>
+                        <input type="number" name="Guess" id="guess" placeholder="#">
+                        <button onclick="evalGuess()">Guess</button>
+                    </div>
+                </article>
+
+                <article class="a2">
+                    <h2>Trys</h2>
+                    <div id="attempts"></div>
+                </article>
+
+                <article class="a3">
+                    <h2>Feedback</h2>
+                    <div id="feedback"></div>
+                </article>
+
+                <article class="a4">
+                    <h2>Award</h2>
+                    <div id="ribbon"></div>
+                </article>
+            </div>
+            <table>
+                <thead>
+
+                </thead>
+            </table>
+        </main>
+        <footer>
+            <div class="footerColor">
+                <p>Assignment for DGM2760 by Tyler Davis</p>
+            </div>
+        </footer>
+    </body>
+    <script type="text/javascript" src="js/main.js"></script>
+</html>
