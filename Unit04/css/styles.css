@@ -1,0 +1,93 @@
+
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+input{
+    width: 80px;
+}
+button{
+    width: 120px;
+    height: 30px;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header{
+    max-width: 960px;
+    height: 150px;
+    margin: 0 auto;
+    background-image: url("../images/header.png");
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+
+footer{
+    background-color: lightseagreen;
+    border: 2px solid black;
+    text-align: center;
+    height: 40px;
+}
+
+h1{
+    color: blue;
+}
+
+h2{
+    color: green;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#fortune{
+    color: red;
+    font-size: xx-large;
+}
+
+.a1{
+    text-align: center;
+    width: 160px;
+    height: 400px;
+    float: left;
+    background-color: tan;
+}
+.a2{
+    text-align: center;
+    width: 160px;
+    height: 400px;
+    float: left;
+    background-color: tan;
+}
+.a2 div{
+    font-size: 100px;
+}
+.a3{
+    text-align: center;
+    width: 320px;
+    height: 400px;
+    float: left;
+    background-color: tan;
+}
+.a4{
+    text-align: center;
+    width: 320px;
+    height: 400px;
+    float: left;
+    background-color: tan;
+}
+.headerText {
+    color: white;
+    text-shadow: 2px 1px black;
+}
+
+
