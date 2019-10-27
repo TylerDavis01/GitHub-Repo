@@ -40,18 +40,36 @@ main h2 {
     padding: .4rem 0 0 0;
     text-shadow: 1px 1px 3px #000;
 }
-main p {padding: 2%;}
+main p {padding: 1%;}
 main ul {margin: 0;}
 main ul.objectives li{
     list-style-image: url("../images/checkbox.png");
-    
     margin-left: 3%;
-    
 }
 main div#stem {
-    background-color: orange;
+    margin: 1% 0 1% 0;
+    width: 100%;
 }
-
+main div.feedback {
+    margin: 1% 0 1% 0;
+    width: 100%;
+}
+main button {
+    display: block;
+    background-color: #eadabd;
+    border: solid 1px #837778;
+    padding: .5em;
+    width: 100%;
+}
+main article {
+    float: left;
+    width: 33.3%;
+    margin: 1% 0 1% 0;
+}
+main article textarea {
+    float: left;
+    width: 95%;
+}
 footer {
     background-color: rgb(52, 114, 34);
     border: 1px solid black;
