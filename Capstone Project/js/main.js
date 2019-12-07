@@ -32,7 +32,7 @@ function calculateSolar() {
     feedback += "<br><hr><h2>Additional Details</h2><br>";
     feedback += `<p>Your average daily electricity consumption is: ${Math.round(dailyKw)} Kwh per day.</p>`;
     feedback += `<p>The average amount of sunshine per day in your zone is: ${sunHoursPerDay} hours</p>`;
-    feedback += `<p>You need to generate ${Math.round(realWattNeeds)} watts per hour to offset your current electrical draw from the grid.</p>`;
+    feedback += `<p>You need to generate ${Math.round(realWattNeeds)} watts per day to offset your current electrical draw from the grid.</p>`;
     feedback += `<p>The ${panelName} panel you selected generates about ${panelOutput} watts per hour based off its efficiency rating.</p>`;
 
     document.getElementById('feedback').innerHTML=feedback;
